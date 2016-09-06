@@ -50,7 +50,6 @@ var map = new mapboxgl.Map({
     dragRotate: true
 });
 
-
 /********************************tilter function****************************/
 function tilter() {
   if (map.getPitch() == 60) {
@@ -66,7 +65,6 @@ function jump_luangwa() {
   map.flyTo({zoom: 8.1, center: [31.58252, -12.992763], pitch: 60});
   $('body').append("<div id='grid_key'><img style='margin-top: 25px; margin-left: 10px' src='img/grid_key.svg'></img></div>");
   $('#grid_key').delay(5000).hide(10);
-
 }
 
 function jump_kidepo() {
