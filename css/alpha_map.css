@@ -1,0 +1,190 @@
+        body { 
+          margin:0; 
+          padding:0; 
+          overflow: hidden;
+        }
+
+        svg {  
+            display: block; position: relative;
+            top: 51%;
+            left: 63%;
+            transform: translate(-50%, -50%);
+          }
+
+        p { 
+          display: inline-block;
+          color: white;
+          vertical-align: middle;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: bold;
+        }
+
+        h3 {
+          margin-left: 7px;
+          margin-top: 14px;        
+          position: fixed;
+          color: white;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: bold;
+        }
+
+        circle {
+          stroke: white;
+          stroke-width: 1px;
+          opacity: .8;
+        }
+
+        #map { 
+            position:absolute; 
+            top:0; 
+            bottom:0; 
+            width:100%;
+        }
+
+        .btn-group {margin-left: 40%}
+
+        .label {
+          fill: white;
+          font-size: 16px;
+        }
+
+        .btn {
+          border-radius: 50px;
+          background-color: #656565;
+          opacity: 1;
+          box-shadow: 0px 0px 20px #888888;
+          margin-top: 50px;
+          border-color: black;
+          color: white;
+          display: block;
+        }
+
+        #luangwa { /*div for jumping to Luangwa survey*/
+          width: 250px;
+          height: 50px;
+          border-radius: 50px;
+          margin-left: 10%;
+          margin-top: 50px;
+          text-align: center;   
+          background-color: #656565;
+          box-shadow: 0px 0px 20px #888888;
+          opacity: 0.5;
+          position: absolute;
+          z-index: 10;
+          cursor: pointer;
+          }
+
+        #kafue { /*div for jumping to Kafue survey*/
+          width: 250px;
+          height: 50px;
+          border-radius: 50px;
+          margin-left: 40%;
+          margin-top: 50px;
+          text-align: center; 
+          box-shadow: 0px 0px 20px #888888;
+          background-color: #656565;
+          opacity: 0.5;
+          position: absolute;
+          z-index: 10;
+          cursor: pointer;
+        }
+
+        #kidepo { /*div for jumping to Kidepo*/
+          width: 250px;
+          height: 50px;
+          border-radius: 20px;
+          margin-left: 70%;
+          margin-top: 50px;
+          text-align: center; 
+          box-shadow: 0px 0px 20px #888888;
+          background-color: #656565;
+          opacity: 0.5;
+          position: absolute;
+          z-index: 10;
+          cursor: pointer;
+        }
+
+        #splash { /*opening splash page*/
+          width: 100%;
+          height: 100%;
+          opacity: 0.85;
+          background-color: black;
+          position: absolute;
+          z-index: 98;
+          cursor: pointer;
+        }
+
+        #graph_stage { /*div to hold the d3*/
+          width: 100%;
+          height: 100%;
+          opacity: 0.93;
+          align: top;
+          display: block;
+          background-color: black;
+          position: absolute;
+          z-index: 95;
+        }
+
+        #macro { /*the top div button. pressing it resets the map to it original state.*/
+          margin-top: 20%;
+          margin-left: 50px;
+          position: absolute;
+          width: 50px;
+          height: 50px;
+          background: #656565;
+          box-shadow: 0px 0px 20px #888888;
+          -moz-border-radius: 70px; 
+          -webkit-border-radius: 70px; 
+          z-index: 97;
+          cursor: pointer;
+        }
+
+        #tilt { /*the middle div button that tilts the map.*/
+          margin-top: 25%;
+          margin-left: 50px;
+          position: absolute;
+          width: 50px;
+          height: 50px;
+          background: #656565;
+          box-shadow: 0px 0px 20px #888888;
+          -moz-border-radius: 70px; 
+          -webkit-border-radius: 70px; 
+          border-radius: 70px;
+          z-index: 94;
+          cursor: pointer;
+        }
+
+        #graphs { /*bottom div button that reveals the d3*/
+          margin-top: 30%;
+          margin-left: 50px;
+          position: absolute;
+          width: 50px;
+          height: 50px;
+          background: #656565;
+          box-shadow: 0px 0px 20px #888888;
+          -moz-border-radius: 70px; 
+          -webkit-border-radius: 70px; 
+          border-radius: 70px;
+          z-index: 97;
+          cursor: pointer;
+        }
+
+        #intro { /*splash page intro*/
+          position: fixed;
+          top: 35%;
+          left: 31%;
+          color: white;
+          font-family: "Arial Black", Gadget, sans-serif;
+        }
+
+        #grid_key { /*grid_key is an svg that pops up as the map key when one of the 3 survey areas is clicked on the map*/
+          width: 250px;
+          height: 210px;
+          border-radius: 20px;
+          margin-left: 70%;
+          margin-top: 20%;
+          background-color: #656565;
+          box-shadow: 0px 0px 20px #888888;
+          position: absolute;
+          z-index: 10;
+        }

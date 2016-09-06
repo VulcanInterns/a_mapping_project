@@ -1,0 +1,11 @@
+This map is in an alpha build. It is an attempt at creating an interactive visualization documenting the effects of human presence around national parks.
+	The map reads in a csv of count data and displays the data in the form of bubbles, describing the counts for a particular survey area by employing a D3 Force Layout. Hovering the pointer over a bubble will reveal more information pertaining to it's data.
+
+	Still in development, data with zero counts still have bubbles. Although hovering the pointer reveals the zero count, this should not be the case. 
+
+	Still in development is a key for the D3 visualization.
+
+	Still in development is a deeper analysis of the data to display the effects of the national parks.
+
+	Still in development is the ability to click directly on the survey areas and a proper responsive layout.
+
